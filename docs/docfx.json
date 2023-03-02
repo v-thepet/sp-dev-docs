@@ -48,8 +48,7 @@
     },
     "fileMetadata": {
       "ms.prod": {
-        "solution-guidance/**.md": "sharepoint",
-        "spfx/**.md": "sharepoint"
+        "solution-guidance/**.md": "sharepoint"
       },
       "ms.service": {
         "apis/*.md": "sharepoint-online",
@@ -61,7 +60,12 @@
         "design/**.md": "sharepoint-online",
         "features/**.md": "sharepoint-online",
         "scenario-guidance/**.md": "sharepoint-online",
-        "schema/**.md": "sharepoint-online"
+        "schema/**.md": "sharepoint-online",
+        "spfx/**.md": "sharepoint"
+      },
+      "ms.subservice":{
+        "spfx-apis/rest/**.md": "sharepoint-framework",
+        "spfx/**.md": "sharepoint-framework"
       },
       "ms.technology":{
         "spfx-apis/rest/**.md": "sharepoint-framework",
